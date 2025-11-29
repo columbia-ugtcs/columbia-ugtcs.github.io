@@ -56,46 +56,25 @@
     </p>
     <hr>
     <h2>Join Us!</h2>
-    <p>The seminar is currently run by Ekene Ezeunala. If you have any questions or would like to join the seminar's Slack channel, please email him <a href="mailto:efe2110@columbia.edu?subject=%5BUndergrad TCS Seminar%5D">here</a>.
+    <p>The seminar is currently run by Jonah Stockwell. If you have any questions or would like to get involved with the seminar, please email him <a href="mailto:js5384@columbia.edu?subject=%5BUndergrad TCS Seminar%5D">here</a>.
     </p>
     <!-- <p>Sign up for the mailing list here: <a href="https://forms.gle/8peARsv9VyQMz3wz7">Mailing List Sign-Up</a>. <span style="color: red;">Sign up for this semester's seminars <a href="https://forms.gle/wBBgsti7ZU2MAj2J7" style="color: blue;">here</a> and <a href="https://forms.gle/UHKwxjbGEtdzp4bU8" style="color: blue;">here</a>.</span>
     </p> -->
    
 
     <hr>
-    <h2> Spring 2025
+    <h2> Fall 2025
     </h2>
-    <div id='spring25' style="display: block;">
-        <p>This spring semester, we will be holding groups on the sum-of-squares method and on property testing for Boolean functions. Each group is run by an undergraduate student organizer and advised by a graduate student mentor. The groups meet roughly weekly and should be approachable for students of all ranges of prior exposure to TCS.</p>
+    <div id='fall25' style="display: block;">
+        <p>This fall semester, we will be holding groups on the high-dimensional geometry and on interactive proof systems. Each group is run by an undergraduate student organizer and advised by a graduate student mentor. The groups meet roughly weekly and should be approachable for students of all ranges of prior exposure to TCS.</p>
         <p>Please see the descriptions and tables below for a summary and the list of talks for each of the groups.</p>
 
-        <div class='spring25-group'>
-            <h3>The sum-of-squares method for algorithms</h3>
-            <p>Organizers: Jonah and Ekene. Graduate student mentor: Shunhua.</p>
-            <p><b>Description:</b> In this 8/9-week seminar series, we will explore the Sum of Squares (SOS) method, a framework connecting convex optimization, some algebraic geometry, and theoretical computer science. Time permitting, we will study its mathematical foundations as well as algorithmic applications of the technique.</p>
+        <div class='fall25-group'>
+            <h3>High-Dimensional Geometry</h3>
+            <p>Organizers: Jonah and John. Graduate student mentor: Yizhi.</p>
+            <p><b>Description:</b> In the modern age, from LLM embeddings to customer statistics, data is incredibly high-dimensional. However, when problems scale to high dimensions, we find the "curse of dimensionality," that many problems are much harder to solve in high dimensions. Thus, in the face of high-dimensionality, we develop new tools to efficiently reason about and solve these problems. In this seminar, we will learn how to think about high-dimensional problems and how to design efficient algorithms to solve these problems.  Prerequisites: Comfort with linear algebra, some probability theory, and the design of algorithms. Previous theory courses are helpful, but not necessary. </p>
+
             <div style="height: 10px;"></div>
-            <table>
-                <tr>
-                    <th>Resource</th>
-                    <th>Title</th>
-                    <th>Link</th>
-                </tr>
-                <tr>
-                    <td>Barak and Steurer</td>
-                    <td>Proofs, beliefs, and algorithms through the lens of sum-of-squares</td>
-                    <td>
-                        <a href="https://www.sumofsquares.org/public/index.html">BS</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Fleming, Kothari, and Pitassi</td>
-                    <td>Semialgebraic proofs and efficient algorithm design</td>
-                    <td>
-                        <a href="https://eccc.weizmann.ac.il/report/2019/106/revision/4/download">FKP</a>
-                    </td>
-                </tr>
-            </table>
-            <div style="height: 30px;"></div>
             <table>
                 <tr>
                     <th>Date</th>
@@ -104,79 +83,78 @@
                     <th>Speaker</th>
                 </tr>
                 <tr>
-                    <td>February 26th</td>
-                    <td>Introduction via the Fourier analysis of low-degree functions on the Boolean hypercube. The certificate perspective on sum-of-squares.
-                        From Caratheodory's theorem to the SoS hierarchy. A "baby" Positivstellensatz.</td>
-                    <td>Various</td>
-                    <td>Ekene</td>
+                    <td>September 30th</td>
+                    <td>Introduction.</td>
+                    <td>Chap. 2 of <a href=https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/hopcroft-kannan-feb2012.pdf>Hopcroft-Kannan</a> <br>
+
+                    Chap. 1-2 of <a href=https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf>Vershyn Book</a> <br>
+
+                    Lec. 1 of <a href=https://www.math.uci.edu/~rvershyn/teaching/hdp/hdp.html>Vershyn Course</a> <br>
+
+                    <a href=https://simons.berkeley.edu/sites/default/files/docs/511/andonislides1.pdf>Andoni Slides</a>
+                    </td>
+                    <td>Jonah and John</td>
                 </tr>
                 <tr>
-                    <td>March 5th</td>
-                    <td>Existence and explicit constructions for sum-of-squares certificates. Applications: edge connectivity and maximum cut.
-                        Quick review of some spectral graph theory and positive semidefinite matrices. Linear and quadratic proofs.</td>
-                    <td>Chapter 4 of FKP, Section 2.1 of BS</td>
-                    <td>Ekene and Jonah</td>
+                    <td>October 7th</td>
+                    <td>Convexity and Caratheodory Theorem</td>
+                    <td>Lec. 2 of <a href=https://www.math.uci.edu/~rvershyn/teaching/hdp/hdp.html>Vershyn Course</a> <br>
+                        Chap. 1 of <a href=https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf>Vershyn Book</a></td>
+                    <td>Jonah</td>
                </tr>
                 <tr>
-                    <td>March 26th</td>
-                    <td>Showing existence, finding SoS certificates for problems, e.g. random 3SAT. Natural-vs-SoS tractability barriers
-                        corresponding to conditional and unconditional lower bounds.
-                        Pseudoexpectations, pseudodistributions, and the duality between pseudodistributions and SoS certificates. A Goemans-Williamson
-                        SoS algorithm for Max-Cut.</td>
-                    <td>Various sections from BS and FKP</td>
-                    <td>Ekene</td>
+                    <td>October 21st</td>
+                    <td>Dimension Reduction (Johnson-Lindenstrauss)</td>
+                    <td>Chap. 2.7 of <a href="https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/hopcroft-kannan-feb2012.pdf">Hopcroft-Kannan</a><br>
+                    Chap. 5 of <a href="https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf">Vershyn Book</a><br>
+                    <a href="https://www.cs.princeton.edu/courses/archive/fall15/cos521/lecnotes/lec12.pdf">Arora Notes</a>
+                    <a href="https://homes.cs.washington.edu/~jrl/teaching/cse525sp19/notes/lecture10.pdf">Lee Course</a>
+                    </td>
+                    <td>Jonah</td>
                 </tr>
                 <tr>
-                    <td>April 2nd</td>
-                    <td>Cheeger's and Grothendieck's inequalities in the normal and SOS form, connections to SoS certificates and pseudodistributions, connections to spectral algorithms.</td>
-                    <td>Section 1 of BS</td>
+                    <td>October 28th</td>
+                    <td>SVD and Intrinsic Dimensionality.</td>
+                    <td><a href="https://www.cs.princeton.edu/courses/archive/fall15/cos521/lecnotes/lec14.pdf">Arora Notes</a></td>
+                    <td>Hao</td>
+                </tr>
+                <tr>
+                    <td>November 11th</td>
+                    <td>Extensions of SVD</td>
+                    <td><a href="https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf">Vershyn Book</a></td>
+                    <td>John</td>
+                </tr>
+                <tr>
+                    <td>November 18th</td>
+                    <td>Space Partitions, Locality-Sensitive Hashing, and NNS.</td>
+                    <td><a href="https://simons.berkeley.edu/sites/default/files/docs/511/andonislides1.pdf">Andoni Slides</a>
+                    Chap. 8 of <a href="https://www.cs.cmu.edu/~venkatg/teaching/CStheory-infoage/hopcroft-kannan-feb2012.pdf">Hopcroft-Kannan</a><br>
+                    <a href="https://homes.cs.washington.edu/~jrl/teaching/cse525sp19/notes/lecture8.pdf">Lee Notes</a>
+                    </td>
                     <td>Ken</td>
                 </tr>
                 <tr>
-                    <td>April 9th</td>
-                    <td>Game theory in the SoS world. Review of the notions of strategic game, mixed strategy, value of a game, Nash equilibrium. Statements of the von Neumann,
-                        Nash (and Kakutani fixed-point), and Glicksberg theorems; proof sketches of the same. Polynomial games; SoS certificate as an equivalence between the adjoint of a Hankel map and a vector
-                        of polynomial coefficients and determining the value and atomic strategies of polynomial & semialgebraic games via SoS.</td>
-                    <td><a href="https://www.mit.edu/~parrilo/pubs/files/Parrilo-PolynomialGamesAndSumOfSquaresOptimization.pdf">[Parrilo]</a></td>
-                    <td>Ekene</td>
+                    <td>November 25th</td>
+                    <td>Discrete Fourier Transform and its Uses</td>
+                    <td>Chap. 8 of <a href="https://drive.google.com/file/d/1UEDKkHZOq4s_oe4IDYnTKspgDiOaEgWO/view?usp=sharing">Arora Course</a></td>
+                    <td>Aruzhan</td>
                 </tr>
                 <tr>
-                    <td>April 16th</td>
-                    <td>A poly-time SOS algorithm for min-cut via finding suitable pseudodistributions. Well-separated sets in a metric space, and the (strong)
-                        global structure theorem. Conductance and the sparsest cut problem; the Arora-Rao-Vazirani approximation algorithm.</td>
-                    <td>Section 4.1 of BS</td>
-                    <td>Ekene</td>
-                </tr>
-                <tr>
-                    <td>April 23rd</td>
-                    <td>Mixture models for separated isotropic Gaussian clusters. Polynomial constraints for cluster indicators; an SoS algorithm
-                        via pseudoexpectations over explicitly bounded distributions. Rounding the pseudomoments to get a clustering algorithm.</td>
-                    <td>Schramm notes</td>
-                    <td>Marcella</td>
-                </tr>
-                <tr>
-                    <td>April 30th</td>
-                    <td>Review of the introductory SOS material from earlier in the semester. Putinar's Positivstellensatz and applications to conic optimisation
-                        programs and semidefinite programming. Using the polynomial interpolant basis and the SOS technique to obtain faster interior-point methods for SOS optimisation.</td>
-                    <td><a href="https://arxiv.org/pdf/2202.08489">[Jiang, Natura, Weinstein]</a></td>
-                    <td>Shunhua</td>
-                </tr>
-                <tr>
-                    <td>May 7th</td>
-                    <td>The unique games conjecture and connections to sum of squares algorithms.</td>
+                    <td>December 2nd</td>
+                    <td>Method of Types, Sanov's Theorem.</td>
                     <td>various</td>
-                    <td>Ekene</td>
+                    <td>Chenyang</td>
                 </tr>
             </table>
         </div>
         
 
-        <div class='spring25-group'>
-            <h3>Property Testing on Boolean Functions</h3>
-            <p>Organizer: Mark and Hao.</p>
-            <p><b>Description:</b> Sometimes, improving learning algorithms can only do so much, and we must instead pivot to the problem of handling large datasets efficiently. Recent breakthroughs like LLMs owe their success to inventive engineering that leverages massive data. Property testing similarly seeks to establish lower and upper bounds for testing certain properties of many samples in sublinear time. Tightening these bounds is tough: for instance, even for 3SAT, the best lower bound is far from super-polynomial. Researchers thus focus on restricted models like Boolean functions, where the bounds for properties such as monotonicity or k-Junta testing can be nearly tight. In this reading seminar, we will focus on surveying the techniques and analyses on these aspects of property testing.</p>
+        <div class='fall25-group'>
+            <h3>A Tasting of Interactive Proof Systems</h3>
+            <p>Organizer: Mark, Hao, and Jonah.</p>
+            <p><b>Description:</b>  Interactive proof systems are powerful tools that have found surprising applications, such as in machine learning, quantum, and cryptography. As you may know, one of the definitions of NP is the set of all proofs whose verifications are efficient. Interactive proof systems started, more or less, to capture this interaction between a prover and a verifier. In this reading group, we will survey some powerful interactive proof protocols behind many surprising recent results. For a few examples, we will hopefully see how the sumcheck protocol helped show IP=PSAPCE, how it also helped reduce #SAT hardness on average to an average-case hard Nash equilibrium distribution, how Zero-Knowledge proofs can be realized in classical and quantum worlds, how classical verifiers can be used to verify quantum computations, and/or how LLMs can check their own correctness and iterate on their outputs. Based on participants’ interests, we can focus on a few of these aspects of interactive proof systems; let’s decide the first time we meet!</p>
             <div style="height: 10px;"></div>
-            <table>
+            <!-- table>
                 <tr>
                     <th>Resource</th>
                     <th>Title</th>
@@ -196,8 +174,8 @@
                         <a href="https://www.cs.cmu.edu/~odonnell/papers/Analysis-of-Boolean-Functions-by-Ryan-ODonnell.pdf">O'Donnell</a>
                     </td>
                 </tr>
-            </table>
-            <div style="height: 30px;"></div>
+            </table> -->
+            <!-- <div style="height: 30px;"></div> -->
             <table>
                 <tr>
                     <th>Date</th>
@@ -206,47 +184,61 @@
                     <th>Reading</th>
                 </tr>
                 <tr>
-                    <td>February 28th</td>
-                    <td>Analysis of Boolean functions: Fourier basis and coefficients, the Fourier spectrum, epsilon-fooling</td>
-                    <td>everyone</td>
-                    <td>Selections from Chapters 1, 6, and 7 of the O'Donnell book.</td>
-                </tr>
-                <tr>
-                    <td>March 7th</td>
-                    <td>Testing monotonicity for Boolean functions on the hypercube</td>
+                    <td>October 20th</td>
+                    <td>Introduction + Basics of Interactive Proof Systems (Private & Public Randomness)</td>
                     <td>Mark</td>
-                    <td>Selections from Chapter 4 of Goldreich</td>
+                    <td>Chap. 8.1-8.4 of <a href="https://theory.cs.princeton.edu/complexity/book.pdf">Arora-Barak</a><br>
+                        Lec. 1-2 of <a href="https://drive.google.com/drive/folders/1Hp2iEcv0EsPWL8sbZGerR1p519A7MISu?usp=sharing">Rothblum</a></td>
                 </tr>
                 <tr>
-                    <td>March 14th</td>
-                    <td>Monotonicity testing, part two</td>
+                    <td>October 27th</td>
+                    <td>Sumcheck protocol (IP=PSPACE) and Fiat-Shamir Transformation (from interactive to non-interactive proofs) — Particularly, we will study how to make suncheck protocol non-interactive via Fiat-Shamir as an example</td>
                     <td>Hao</td>
-                    <td><a href="https://arxiv.org/abs/1511.05053">A Polynomial Lower Bound for Testing Monotonicity</a></td>
+                    <td>Chap. 8.5 of <a href="https://theory.cs.princeton.edu/complexity/book.pdf">Arora-Barak</a><br>
+                    <a href="https://eprint.iacr.org/2019/549.pdf">Finding a Nash Equilibrium is No Easier than Breaking Fiat-Shamir</a></td>
                 </tr>
                 <tr>
-                    <td>March 28th</td>
-                    <td>Monotonicity testing, part three</td>
-                    <td>Mark</td>
-                    <td><a href="https://arxiv.org/abs/1702.06997">Beyond Talagrand Functions: New Lower Bounds for Testing Monotonicity and Unateness</a></td>
+                    <td>November 10th</td>
+                    <td>Selected by Presenter</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+
+                <tr>
+                    <td>November 17th</td>
+                    <td>Selected by Presenter</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
                 </tr>
                 <tr>
-                    <td>April 4th</td>
-                    <td>Monotonicity testing, part four</td>
-                    <td>Hao</td>
-                    <td><a href="https://epubs.siam.org/doi/10.1137/16M1065872">On Monotonicity Testing and Boolean Isoperimetric-type Theorems</a></td>
+                    <td>November 24th</td>
+                    <td>Selected by Presenter</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
                 </tr>
                 <tr>
-                    <td>April 11th</td>
-                    <td>k-Junta testing, part one</td>
-                    <td>Mark</td>
-                    <td>Selections from Chapter 5 of Goldreich</td>
+                    <td>December 1st</td>
+                    <td>Selected by Presenter</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
                 </tr>
+
+                <tr>
+                    <td>December 8st</td>
+                    <td>Selected by Presenter</td>
+                    <td>TBD</td>
+                    <td>TBD</td>
+                </tr>
+                
             </table>
         </div>
     </div>
 
     <div style="height: 30px;"></div>
     <h2>Previous Semesters</h2>
+    <h2>
+        <a href="spring2025.html">Spring 2025</a>
+    </h2>
     <h2>
         <a href="fall2024.html">Fall 2024</a>
     </h2>
